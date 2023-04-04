@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
 body{
     background-color:#535353;
-    font-family: Roboto;
 }
 h1{
     color:#E3EC39;
@@ -31,7 +33,6 @@ h1{
     text-align: center;
 }
 .SideContent a{
-    font-family: Roboto;
     color: #000000;
     text-transform: uppercase;
     text-decoration:none;
@@ -63,7 +64,6 @@ h1{
     position: absolute;
     margin-top: -50%;
     margin-left: 11.5%;
-    font-family: Roboto;
     font-size: 110px;
     text-shadow: -1px 0 black, 0 1px black,
     1px 0 black, 0 -1px black
@@ -73,7 +73,6 @@ h1{
     position: absolute;
     margin-top: -43%;
     margin-left: 40%;
-    font-family: Roboto;
     font-size: 110px;
     text-shadow: -1px 0 black, 0 1px black,
     1px 0 black, 0 -1px black
@@ -84,7 +83,6 @@ h1{
     position: absolute;
     margin-top: -30%;
     margin-left: 10%;
-    font-family: Roboto;
     font-size: 30px;
     text-shadow: -1px 0 black, 0 1px black,
     1px 0 black, 0 -1px black
@@ -94,7 +92,6 @@ h1{
     position: relative;
     margin-top: 5%;
     margin-left: 26%;
-    font-family: Roboto;
     font-size: 110px;
 }
 .H2-4{
@@ -103,12 +100,9 @@ h1{
     position: relative;
     margin-top: -12%;
     margin-left: 24%;
-    font-family: Roboto;
     font-size: 110px;
 }
-.Features{
-    padding-bottom: 50px;
-}
+
 .Features div{
     margin-left: 10%;
     display: inline-block;
@@ -128,12 +122,11 @@ h1{
     color: #D5DD3C;
     position: relative;
     margin-top: -46.5%;
-    margin-left: -0.5%;
-    font-family: Roboto;
+    margin-left: -5%;
     font-size: 50px;
     text-transform: uppercase;
     text-align: center;
-}
+    }
 .Features p{
     position: relative;
     color: #ffffff;
@@ -144,7 +137,6 @@ h1{
     position: relative;
     margin-top: 5%;
     margin-left: 20%;
-    font-family: Roboto;
     font-size: 110px;
     text-transform: uppercase;
 }
@@ -154,7 +146,6 @@ h1{
     position: relative;
     margin-top: -12%;
     margin-left: 30%;
-    font-family: Roboto;
     font-size: 110px;
     text-transform: uppercase;
 }
@@ -169,37 +160,38 @@ h1{
     padding: 20px;
 }
 .Form label{
-    display:block;
+    display: inline-block;
 }
 .Form input[type="text"]{
     padding: 8px;
-    width: 70%;
+    width: 97%;
     background-color: #c9c7c7;
 }
-.Form textarea[type="text"]{
-    padding: 8px;
-    width: 100%;
+.TextArea input[type="text"]{
     background-color: #c9c7c7;
+    height: 100px;
+    border-radius: 8px;
 }
 .block{
     display: inline-block;
-    width: 24%;
+    width: 20%;
+    padding-right: 40px;
     align-self: center;
     padding-bottom: 10px;
 }
 .Form select{
     padding: 8px;
-    width: 70%;
+    width: 250px;
     background-color: #c9c7c7;
 }
 .Form button{
-    font-family: Roboto;
     position:relative;
+    margin-top: 30px;
     margin-left: 42%;
     background-color: #D5DD3C;
     color: black;
-    padding: 10px, 10px;
-    font-size: 15px;
+    padding: 15px, 15px;
+    font-size: 16px;
     border-radius: 6px;
     border:0px;
     width: 80px;
@@ -210,7 +202,6 @@ h1{
     position: relative;
     margin-top: 5%;
     margin-left: 24%;
-    font-family: Roboto;
     font-size: 110px;
     text-transform: uppercase;
 }
@@ -220,7 +211,6 @@ h1{
     position: relative;
     margin-top: -12%;
     margin-left: 26%;
-    font-family: Roboto;
     font-size: 110px;
     text-transform: uppercase;
 }
@@ -251,7 +241,6 @@ h1{
     position: relative;
     margin-top: -45%;
     margin-left: 21%;
-    font-family: Roboto;
     font-size: 50px;
     text-transform: uppercase;
 }
@@ -261,7 +250,6 @@ h1{
     position: relative;
     margin-top: -45%;
     margin-left: 10%;
-    font-family: Roboto;
     font-size: 50px;
     text-transform: uppercase;
 }
@@ -270,7 +258,6 @@ h1{
     position: relative;
     margin-top: 5%;
     margin-left: 11%;
-    font-family: Roboto;
     font-size: 110px;
     text-transform: uppercase;
 }
@@ -280,7 +267,6 @@ h1{
     position: relative;
     margin-top: -12%;
     margin-left: 26%;
-    font-family: Roboto;
     font-size: 110px;
     text-transform: uppercase;
 }
@@ -298,7 +284,6 @@ h1{
     position: relative;
     margin-top: -40%;
     margin-left: 40%;
-    font-family: Roboto;
     font-size: 35px;
     text-transform: uppercase;
     padding-bottom: 500px;
@@ -310,7 +295,6 @@ h1{
     position: relative;
     margin-top: -40%;
     margin-left: 40%;
-    font-family: Roboto;
     font-size: 20px;
     text-transform: uppercase;
     padding-bottom: 500px;
@@ -326,7 +310,6 @@ h1{
     position: relative;
     margin-top: -40%;
     margin-left: 40%;
-    font-family: Roboto;
     font-size: 15px;
     text-transform: uppercase;
     padding-bottom: 150px;
@@ -342,7 +325,6 @@ h1{
     position: relative;
     margin-top: 5%;
     margin-left: 7%;
-    font-family: Roboto;
     font-size: 80px;
     text-transform: uppercase;
 }
@@ -353,7 +335,6 @@ h1{
     position: relative;
     margin-top: 11%;
     margin-left: -1%;
-    font-family: Roboto;
     font-size: 80px;
     text-transform: uppercase;
 }
@@ -364,7 +345,6 @@ h1{
     position: relative;
     margin-top: 5%;
     margin-right: 15%;
-    font-family: Roboto;
     font-size: 15px;
     width: 30%;
     border-radius: 20px;
@@ -402,7 +382,6 @@ h1{
 .Foot p{
     text-align: center;
     color: #ffffff;
-    font-family: Roboto;
     font-size: 19px;
     margin-top: -6%;
 }
